@@ -1,0 +1,1322 @@
+[
+  {
+    "root": "A",
+    "quality": "",
+    "diagramFilename": "A.svg"
+  },
+  {
+    "root": "A",
+    "quality": "13",
+    "diagramFilename": "A13.svg"
+  },
+  {
+    "root": "A",
+    "quality": "6",
+    "diagramFilename": "A6.svg"
+  },
+  {
+    "root": "A",
+    "quality": "69",
+    "diagramFilename": "A69.svg"
+  },
+  {
+    "root": "A",
+    "quality": "7",
+    "diagramFilename": "A7.svg"
+  },
+  {
+    "root": "A",
+    "quality": "7#5",
+    "diagramFilename": "A7#5.svg"
+  },
+  {
+    "root": "A",
+    "quality": "7b5",
+    "diagramFilename": "A7b5.svg"
+  },
+  {
+    "root": "A",
+    "quality": "7b9",
+    "diagramFilename": "A7b9.svg"
+  },
+  {
+    "root": "A",
+    "quality": "9",
+    "diagramFilename": "A9.svg"
+  },
+  {
+    "root": "A",
+    "quality": "add9",
+    "diagramFilename": "Aadd9.svg"
+  },
+  {
+    "root": "A",
+    "quality": "aug",
+    "diagramFilename": "Aaug.svg"
+  },
+  {
+    "root": "A",
+    "quality": "dim",
+    "diagramFilename": "Adim.svg"
+  },
+  {
+    "root": "A",
+    "quality": "dim7",
+    "diagramFilename": "Adim7.svg"
+  },
+  {
+    "root": "A",
+    "quality": "m",
+    "diagramFilename": "Am.svg"
+  },
+  {
+    "root": "A",
+    "quality": "m6",
+    "diagramFilename": "Am6.svg"
+  },
+  {
+    "root": "A",
+    "quality": "m7",
+    "diagramFilename": "Am7.svg"
+  },
+  {
+    "root": "A",
+    "quality": "m7b5",
+    "diagramFilename": "Am7b5.svg"
+  },
+  {
+    "root": "A",
+    "quality": "m9",
+    "diagramFilename": "Am9.svg"
+  },
+  {
+    "root": "A",
+    "quality": "maj7",
+    "diagramFilename": "Amaj7.svg"
+  },
+  {
+    "root": "A",
+    "quality": "maj9",
+    "diagramFilename": "Amaj9.svg"
+  },
+  {
+    "root": "A",
+    "quality": "sus2",
+    "diagramFilename": "Asus2.svg"
+  },
+  {
+    "root": "A",
+    "quality": "sus4",
+    "diagramFilename": "Asus4.svg"
+  },
+  {
+    "root": "Bb",
+    "quality": "",
+    "diagramFilename": "Bb.svg"
+  },
+  {
+    "root": "Bb",
+    "quality": "13",
+    "diagramFilename": "Bb13.svg"
+  },
+  {
+    "root": "Bb",
+    "quality": "6",
+    "diagramFilename": "Bb6.svg"
+  },
+  {
+    "root": "Bb",
+    "quality": "69",
+    "diagramFilename": "Bb69.svg"
+  },
+  {
+    "root": "Bb",
+    "quality": "7",
+    "diagramFilename": "Bb7.svg"
+  },
+  {
+    "root": "Bb",
+    "quality": "7#5",
+    "diagramFilename": "Bb7#5.svg"
+  },
+  {
+    "root": "Bb",
+    "quality": "7b5",
+    "diagramFilename": "Bb7b5.svg"
+  },
+  {
+    "root": "Bb",
+    "quality": "7b9",
+    "diagramFilename": "Bb7b9.svg"
+  },
+  {
+    "root": "Bb",
+    "quality": "9",
+    "diagramFilename": "Bb9.svg"
+  },
+  {
+    "root": "Bb",
+    "quality": "add9",
+    "diagramFilename": "Bbadd9.svg"
+  },
+  {
+    "root": "Bb",
+    "quality": "aug",
+    "diagramFilename": "Bbaug.svg"
+  },
+  {
+    "root": "Bb",
+    "quality": "dim",
+    "diagramFilename": "Bbdim.svg"
+  },
+  {
+    "root": "Bb",
+    "quality": "dim7",
+    "diagramFilename": "Bbdim7.svg"
+  },
+  {
+    "root": "Bb",
+    "quality": "m",
+    "diagramFilename": "Bbm.svg"
+  },
+  {
+    "root": "Bb",
+    "quality": "m6",
+    "diagramFilename": "Bbm6.svg"
+  },
+  {
+    "root": "Bb",
+    "quality": "m7",
+    "diagramFilename": "Bbm7.svg"
+  },
+  {
+    "root": "Bb",
+    "quality": "m7b5",
+    "diagramFilename": "Bbm7b5.svg"
+  },
+  {
+    "root": "Bb",
+    "quality": "m9",
+    "diagramFilename": "Bbm9.svg"
+  },
+  {
+    "root": "Bb",
+    "quality": "maj7",
+    "diagramFilename": "Bbmaj7.svg"
+  },
+  {
+    "root": "Bb",
+    "quality": "maj9",
+    "diagramFilename": "Bbmaj9.svg"
+  },
+  {
+    "root": "Bb",
+    "quality": "sus2",
+    "diagramFilename": "Bbsus2.svg"
+  },
+  {
+    "root": "Bb",
+    "quality": "sus4",
+    "diagramFilename": "Bbsus4.svg"
+  },
+  {
+    "root": "B",
+    "quality": "",
+    "diagramFilename": "B.svg"
+  },
+  {
+    "root": "B",
+    "quality": "13",
+    "diagramFilename": "B13.svg"
+  },
+  {
+    "root": "B",
+    "quality": "6",
+    "diagramFilename": "B6.svg"
+  },
+  {
+    "root": "B",
+    "quality": "69",
+    "diagramFilename": "B69.svg"
+  },
+  {
+    "root": "B",
+    "quality": "7",
+    "diagramFilename": "B7.svg"
+  },
+  {
+    "root": "B",
+    "quality": "7#5",
+    "diagramFilename": "B7#5.svg"
+  },
+  {
+    "root": "B",
+    "quality": "7b5",
+    "diagramFilename": "B7b5.svg"
+  },
+  {
+    "root": "B",
+    "quality": "7b9",
+    "diagramFilename": "B7b9.svg"
+  },
+  {
+    "root": "B",
+    "quality": "9",
+    "diagramFilename": "B9.svg"
+  },
+  {
+    "root": "B",
+    "quality": "add9",
+    "diagramFilename": "Badd9.svg"
+  },
+  {
+    "root": "B",
+    "quality": "aug",
+    "diagramFilename": "Baug.svg"
+  },
+  {
+    "root": "B",
+    "quality": "dim",
+    "diagramFilename": "Bdim.svg"
+  },
+  {
+    "root": "B",
+    "quality": "dim7",
+    "diagramFilename": "Bdim7.svg"
+  },
+  {
+    "root": "B",
+    "quality": "m",
+    "diagramFilename": "Bm.svg"
+  },
+  {
+    "root": "B",
+    "quality": "m6",
+    "diagramFilename": "Bm6.svg"
+  },
+  {
+    "root": "B",
+    "quality": "m7",
+    "diagramFilename": "Bm7.svg"
+  },
+  {
+    "root": "B",
+    "quality": "m7b5",
+    "diagramFilename": "Bm7b5.svg"
+  },
+  {
+    "root": "B",
+    "quality": "m9",
+    "diagramFilename": "Bm9.svg"
+  },
+  {
+    "root": "B",
+    "quality": "maj7",
+    "diagramFilename": "Bmaj7.svg"
+  },
+  {
+    "root": "B",
+    "quality": "maj9",
+    "diagramFilename": "Bmaj9.svg"
+  },
+  {
+    "root": "B",
+    "quality": "sus2",
+    "diagramFilename": "Bsus2.svg"
+  },
+  {
+    "root": "B",
+    "quality": "sus4",
+    "diagramFilename": "Bsus4.svg"
+  },
+  {
+    "root": "C",
+    "quality": "",
+    "diagramFilename": "C.svg"
+  },
+  {
+    "root": "C",
+    "quality": "13",
+    "diagramFilename": "C13.svg"
+  },
+  {
+    "root": "C",
+    "quality": "6",
+    "diagramFilename": "C6.svg"
+  },
+  {
+    "root": "C",
+    "quality": "69",
+    "diagramFilename": "C69.svg"
+  },
+  {
+    "root": "C",
+    "quality": "7",
+    "diagramFilename": "C7.svg"
+  },
+  {
+    "root": "C",
+    "quality": "7#5",
+    "diagramFilename": "C7#5.svg"
+  },
+  {
+    "root": "C",
+    "quality": "7b5",
+    "diagramFilename": "C7b5.svg"
+  },
+  {
+    "root": "C",
+    "quality": "7b9",
+    "diagramFilename": "C7b9.svg"
+  },
+  {
+    "root": "C",
+    "quality": "9",
+    "diagramFilename": "C9.svg"
+  },
+  {
+    "root": "C",
+    "quality": "add9",
+    "diagramFilename": "Cadd9.svg"
+  },
+  {
+    "root": "C",
+    "quality": "aug",
+    "diagramFilename": "Caug.svg"
+  },
+  {
+    "root": "C",
+    "quality": "dim",
+    "diagramFilename": "Cdim.svg"
+  },
+  {
+    "root": "C",
+    "quality": "dim7",
+    "diagramFilename": "Cdim7.svg"
+  },
+  {
+    "root": "C",
+    "quality": "m",
+    "diagramFilename": "Cm.svg"
+  },
+  {
+    "root": "C",
+    "quality": "m6",
+    "diagramFilename": "Cm6.svg"
+  },
+  {
+    "root": "C",
+    "quality": "m7",
+    "diagramFilename": "Cm7.svg"
+  },
+  {
+    "root": "C",
+    "quality": "m7b5",
+    "diagramFilename": "Cm7b5.svg"
+  },
+  {
+    "root": "C",
+    "quality": "m9",
+    "diagramFilename": "Cm9.svg"
+  },
+  {
+    "root": "C",
+    "quality": "maj7",
+    "diagramFilename": "Cmaj7.svg"
+  },
+  {
+    "root": "C",
+    "quality": "maj9",
+    "diagramFilename": "Cmaj9.svg"
+  },
+  {
+    "root": "C",
+    "quality": "sus2",
+    "diagramFilename": "Csus2.svg"
+  },
+  {
+    "root": "C",
+    "quality": "sus4",
+    "diagramFilename": "Csus4.svg"
+  },
+  {
+    "root": "C#",
+    "quality": "",
+    "diagramFilename": "C#.svg"
+  },
+  {
+    "root": "C#",
+    "quality": "13",
+    "diagramFilename": "C#13.svg"
+  },
+  {
+    "root": "C#",
+    "quality": "6",
+    "diagramFilename": "C#6.svg"
+  },
+  {
+    "root": "C#",
+    "quality": "69",
+    "diagramFilename": "C#69.svg"
+  },
+  {
+    "root": "C#",
+    "quality": "7",
+    "diagramFilename": "C#7.svg"
+  },
+  {
+    "root": "C#",
+    "quality": "7#5",
+    "diagramFilename": "C#7#5.svg"
+  },
+  {
+    "root": "C#",
+    "quality": "7b5",
+    "diagramFilename": "C#7b5.svg"
+  },
+  {
+    "root": "C#",
+    "quality": "7b9",
+    "diagramFilename": "C#7b9.svg"
+  },
+  {
+    "root": "C#",
+    "quality": "9",
+    "diagramFilename": "C#9.svg"
+  },
+  {
+    "root": "C#",
+    "quality": "add9",
+    "diagramFilename": "C#add9.svg"
+  },
+  {
+    "root": "C#",
+    "quality": "aug",
+    "diagramFilename": "C#aug.svg"
+  },
+  {
+    "root": "C#",
+    "quality": "dim",
+    "diagramFilename": "C#dim.svg"
+  },
+  {
+    "root": "C#",
+    "quality": "dim7",
+    "diagramFilename": "C#dim7.svg"
+  },
+  {
+    "root": "C#",
+    "quality": "m",
+    "diagramFilename": "C#m.svg"
+  },
+  {
+    "root": "C#",
+    "quality": "m6",
+    "diagramFilename": "C#m6.svg"
+  },
+  {
+    "root": "C#",
+    "quality": "m7",
+    "diagramFilename": "C#m7.svg"
+  },
+  {
+    "root": "C#",
+    "quality": "m7b5",
+    "diagramFilename": "C#m7b5.svg"
+  },
+  {
+    "root": "C#",
+    "quality": "m9",
+    "diagramFilename": "C#m9.svg"
+  },
+  {
+    "root": "C#",
+    "quality": "maj7",
+    "diagramFilename": "C#maj7.svg"
+  },
+  {
+    "root": "C#",
+    "quality": "maj9",
+    "diagramFilename": "C#maj9.svg"
+  },
+  {
+    "root": "C#",
+    "quality": "sus2",
+    "diagramFilename": "C#sus2.svg"
+  },
+  {
+    "root": "C#",
+    "quality": "sus4",
+    "diagramFilename": "C#sus4.svg"
+  },
+  {
+    "root": "D",
+    "quality": "",
+    "diagramFilename": "D.svg"
+  },
+  {
+    "root": "D",
+    "quality": "13",
+    "diagramFilename": "D13.svg"
+  },
+  {
+    "root": "D",
+    "quality": "6",
+    "diagramFilename": "D6.svg"
+  },
+  {
+    "root": "D",
+    "quality": "69",
+    "diagramFilename": "D69.svg"
+  },
+  {
+    "root": "D",
+    "quality": "7",
+    "diagramFilename": "D7.svg"
+  },
+  {
+    "root": "D",
+    "quality": "7#5",
+    "diagramFilename": "D7#5.svg"
+  },
+  {
+    "root": "D",
+    "quality": "7b5",
+    "diagramFilename": "D7b5.svg"
+  },
+  {
+    "root": "D",
+    "quality": "7b9",
+    "diagramFilename": "D7b9.svg"
+  },
+  {
+    "root": "D",
+    "quality": "9",
+    "diagramFilename": "D9.svg"
+  },
+  {
+    "root": "D",
+    "quality": "add9",
+    "diagramFilename": "Dadd9.svg"
+  },
+  {
+    "root": "D",
+    "quality": "aug",
+    "diagramFilename": "Daug.svg"
+  },
+  {
+    "root": "D",
+    "quality": "dim",
+    "diagramFilename": "Ddim.svg"
+  },
+  {
+    "root": "D",
+    "quality": "dim7",
+    "diagramFilename": "Ddim7.svg"
+  },
+  {
+    "root": "D",
+    "quality": "m",
+    "diagramFilename": "Dm.svg"
+  },
+  {
+    "root": "D",
+    "quality": "m6",
+    "diagramFilename": "Dm6.svg"
+  },
+  {
+    "root": "D",
+    "quality": "m7",
+    "diagramFilename": "Dm7.svg"
+  },
+  {
+    "root": "D",
+    "quality": "m7b5",
+    "diagramFilename": "Dm7b5.svg"
+  },
+  {
+    "root": "D",
+    "quality": "m9",
+    "diagramFilename": "Dm9.svg"
+  },
+  {
+    "root": "D",
+    "quality": "maj7",
+    "diagramFilename": "Dmaj7.svg"
+  },
+  {
+    "root": "D",
+    "quality": "maj9",
+    "diagramFilename": "Dmaj9.svg"
+  },
+  {
+    "root": "D",
+    "quality": "sus2",
+    "diagramFilename": "Dsus2.svg"
+  },
+  {
+    "root": "D",
+    "quality": "sus4",
+    "diagramFilename": "Dsus4.svg"
+  },
+  {
+    "root": "Eb",
+    "quality": "",
+    "diagramFilename": "Eb.svg"
+  },
+  {
+    "root": "Eb",
+    "quality": "13",
+    "diagramFilename": "Eb13.svg"
+  },
+  {
+    "root": "Eb",
+    "quality": "6",
+    "diagramFilename": "Eb6.svg"
+  },
+  {
+    "root": "Eb",
+    "quality": "69",
+    "diagramFilename": "Eb69.svg"
+  },
+  {
+    "root": "Eb",
+    "quality": "7",
+    "diagramFilename": "Eb7.svg"
+  },
+  {
+    "root": "Eb",
+    "quality": "7#5",
+    "diagramFilename": "Eb7#5.svg"
+  },
+  {
+    "root": "Eb",
+    "quality": "7b5",
+    "diagramFilename": "Eb7b5.svg"
+  },
+  {
+    "root": "Eb",
+    "quality": "7b9",
+    "diagramFilename": "Eb7b9.svg"
+  },
+  {
+    "root": "Eb",
+    "quality": "9",
+    "diagramFilename": "Eb9.svg"
+  },
+  {
+    "root": "Eb",
+    "quality": "add9",
+    "diagramFilename": "Ebadd9.svg"
+  },
+  {
+    "root": "Eb",
+    "quality": "aug",
+    "diagramFilename": "Ebaug.svg"
+  },
+  {
+    "root": "Eb",
+    "quality": "dim",
+    "diagramFilename": "Ebdim.svg"
+  },
+  {
+    "root": "Eb",
+    "quality": "dim7",
+    "diagramFilename": "Ebdim7.svg"
+  },
+  {
+    "root": "Eb",
+    "quality": "m",
+    "diagramFilename": "Ebm.svg"
+  },
+  {
+    "root": "Eb",
+    "quality": "m6",
+    "diagramFilename": "Ebm6.svg"
+  },
+  {
+    "root": "Eb",
+    "quality": "m7",
+    "diagramFilename": "Ebm7.svg"
+  },
+  {
+    "root": "Eb",
+    "quality": "m7b5",
+    "diagramFilename": "Ebm7b5.svg"
+  },
+  {
+    "root": "Eb",
+    "quality": "m9",
+    "diagramFilename": "Ebm9.svg"
+  },
+  {
+    "root": "Eb",
+    "quality": "maj7",
+    "diagramFilename": "Ebmaj7.svg"
+  },
+  {
+    "root": "Eb",
+    "quality": "maj9",
+    "diagramFilename": "Ebmaj9.svg"
+  },
+  {
+    "root": "Eb",
+    "quality": "sus2",
+    "diagramFilename": "Ebsus2.svg"
+  },
+  {
+    "root": "Eb",
+    "quality": "sus4",
+    "diagramFilename": "Ebsus4.svg"
+  },
+  {
+    "root": "E",
+    "quality": "",
+    "diagramFilename": "E.svg"
+  },
+  {
+    "root": "E",
+    "quality": "13",
+    "diagramFilename": "E13.svg"
+  },
+  {
+    "root": "E",
+    "quality": "6",
+    "diagramFilename": "E6.svg"
+  },
+  {
+    "root": "E",
+    "quality": "69",
+    "diagramFilename": "E69.svg"
+  },
+  {
+    "root": "E",
+    "quality": "7",
+    "diagramFilename": "E7.svg"
+  },
+  {
+    "root": "E",
+    "quality": "7#5",
+    "diagramFilename": "E7#5.svg"
+  },
+  {
+    "root": "E",
+    "quality": "7b5",
+    "diagramFilename": "E7b5.svg"
+  },
+  {
+    "root": "E",
+    "quality": "7b9",
+    "diagramFilename": "E7b9.svg"
+  },
+  {
+    "root": "E",
+    "quality": "9",
+    "diagramFilename": "E9.svg"
+  },
+  {
+    "root": "E",
+    "quality": "add9",
+    "diagramFilename": "Eadd9.svg"
+  },
+  {
+    "root": "E",
+    "quality": "aug",
+    "diagramFilename": "Eaug.svg"
+  },
+  {
+    "root": "E",
+    "quality": "dim",
+    "diagramFilename": "Edim.svg"
+  },
+  {
+    "root": "E",
+    "quality": "dim7",
+    "diagramFilename": "Edim7.svg"
+  },
+  {
+    "root": "E",
+    "quality": "m",
+    "diagramFilename": "Em.svg"
+  },
+  {
+    "root": "E",
+    "quality": "m6",
+    "diagramFilename": "Em6.svg"
+  },
+  {
+    "root": "E",
+    "quality": "m7",
+    "diagramFilename": "Em7.svg"
+  },
+  {
+    "root": "E",
+    "quality": "m7b5",
+    "diagramFilename": "Em7b5.svg"
+  },
+  {
+    "root": "E",
+    "quality": "m9",
+    "diagramFilename": "Em9.svg"
+  },
+  {
+    "root": "E",
+    "quality": "maj7",
+    "diagramFilename": "Emaj7.svg"
+  },
+  {
+    "root": "E",
+    "quality": "maj9",
+    "diagramFilename": "Emaj9.svg"
+  },
+  {
+    "root": "E",
+    "quality": "sus2",
+    "diagramFilename": "Esus2.svg"
+  },
+  {
+    "root": "E",
+    "quality": "sus4",
+    "diagramFilename": "Esus4.svg"
+  },
+  {
+    "root": "F",
+    "quality": "",
+    "diagramFilename": "F.svg"
+  },
+  {
+    "root": "F",
+    "quality": "13",
+    "diagramFilename": "F13.svg"
+  },
+  {
+    "root": "F",
+    "quality": "6",
+    "diagramFilename": "F6.svg"
+  },
+  {
+    "root": "F",
+    "quality": "69",
+    "diagramFilename": "F69.svg"
+  },
+  {
+    "root": "F",
+    "quality": "7",
+    "diagramFilename": "F7.svg"
+  },
+  {
+    "root": "F",
+    "quality": "7#5",
+    "diagramFilename": "F7#5.svg"
+  },
+  {
+    "root": "F",
+    "quality": "7b5",
+    "diagramFilename": "F7b5.svg"
+  },
+  {
+    "root": "F",
+    "quality": "7b9",
+    "diagramFilename": "F7b9.svg"
+  },
+  {
+    "root": "F",
+    "quality": "9",
+    "diagramFilename": "F9.svg"
+  },
+  {
+    "root": "F",
+    "quality": "add9",
+    "diagramFilename": "Fadd9.svg"
+  },
+  {
+    "root": "F",
+    "quality": "aug",
+    "diagramFilename": "Faug.svg"
+  },
+  {
+    "root": "F",
+    "quality": "dim",
+    "diagramFilename": "Fdim.svg"
+  },
+  {
+    "root": "F",
+    "quality": "dim7",
+    "diagramFilename": "Fdim7.svg"
+  },
+  {
+    "root": "F",
+    "quality": "m",
+    "diagramFilename": "Fm.svg"
+  },
+  {
+    "root": "F",
+    "quality": "m6",
+    "diagramFilename": "Fm6.svg"
+  },
+  {
+    "root": "F",
+    "quality": "m7",
+    "diagramFilename": "Fm7.svg"
+  },
+  {
+    "root": "F",
+    "quality": "m7b5",
+    "diagramFilename": "Fm7b5.svg"
+  },
+  {
+    "root": "F",
+    "quality": "m9",
+    "diagramFilename": "Fm9.svg"
+  },
+  {
+    "root": "F",
+    "quality": "maj7",
+    "diagramFilename": "Fmaj7.svg"
+  },
+  {
+    "root": "F",
+    "quality": "maj9",
+    "diagramFilename": "Fmaj9.svg"
+  },
+  {
+    "root": "F",
+    "quality": "sus2",
+    "diagramFilename": "Fsus2.svg"
+  },
+  {
+    "root": "F",
+    "quality": "sus4",
+    "diagramFilename": "Fsus4.svg"
+  },
+  {
+    "root": "F#",
+    "quality": "",
+    "diagramFilename": "F#.svg"
+  },
+  {
+    "root": "F#",
+    "quality": "13",
+    "diagramFilename": "F#13.svg"
+  },
+  {
+    "root": "F#",
+    "quality": "6",
+    "diagramFilename": "F#6.svg"
+  },
+  {
+    "root": "F#",
+    "quality": "69",
+    "diagramFilename": "F#69.svg"
+  },
+  {
+    "root": "F#",
+    "quality": "7",
+    "diagramFilename": "F#7.svg"
+  },
+  {
+    "root": "F#",
+    "quality": "7#5",
+    "diagramFilename": "F#7#5.svg"
+  },
+  {
+    "root": "F#",
+    "quality": "7b5",
+    "diagramFilename": "F#7b5.svg"
+  },
+  {
+    "root": "F#",
+    "quality": "7b9",
+    "diagramFilename": "F#7b9.svg"
+  },
+  {
+    "root": "F#",
+    "quality": "9",
+    "diagramFilename": "F#9.svg"
+  },
+  {
+    "root": "F#",
+    "quality": "add9",
+    "diagramFilename": "F#add9.svg"
+  },
+  {
+    "root": "F#",
+    "quality": "aug",
+    "diagramFilename": "F#aug.svg"
+  },
+  {
+    "root": "F#",
+    "quality": "dim",
+    "diagramFilename": "F#dim.svg"
+  },
+  {
+    "root": "F#",
+    "quality": "dim7",
+    "diagramFilename": "F#dim7.svg"
+  },
+  {
+    "root": "F#",
+    "quality": "m",
+    "diagramFilename": "F#m.svg"
+  },
+  {
+    "root": "F#",
+    "quality": "m6",
+    "diagramFilename": "F#m6.svg"
+  },
+  {
+    "root": "F#",
+    "quality": "m7",
+    "diagramFilename": "F#m7.svg"
+  },
+  {
+    "root": "F#",
+    "quality": "m7b5",
+    "diagramFilename": "F#m7b5.svg"
+  },
+  {
+    "root": "F#",
+    "quality": "m9",
+    "diagramFilename": "F#m9.svg"
+  },
+  {
+    "root": "F#",
+    "quality": "maj7",
+    "diagramFilename": "F#maj7.svg"
+  },
+  {
+    "root": "F#",
+    "quality": "maj9",
+    "diagramFilename": "F#maj9.svg"
+  },
+  {
+    "root": "F#",
+    "quality": "sus2",
+    "diagramFilename": "F#sus2.svg"
+  },
+  {
+    "root": "F#",
+    "quality": "sus4",
+    "diagramFilename": "F#sus4.svg"
+  },
+  {
+    "root": "G",
+    "quality": "",
+    "diagramFilename": "G.svg"
+  },
+  {
+    "root": "G",
+    "quality": "13",
+    "diagramFilename": "G13.svg"
+  },
+  {
+    "root": "G",
+    "quality": "6",
+    "diagramFilename": "G6.svg"
+  },
+  {
+    "root": "G",
+    "quality": "69",
+    "diagramFilename": "G69.svg"
+  },
+  {
+    "root": "G",
+    "quality": "7",
+    "diagramFilename": "G7.svg"
+  },
+  {
+    "root": "G",
+    "quality": "7#5",
+    "diagramFilename": "G7#5.svg"
+  },
+  {
+    "root": "G",
+    "quality": "7b5",
+    "diagramFilename": "G7b5.svg"
+  },
+  {
+    "root": "G",
+    "quality": "7b9",
+    "diagramFilename": "G7b9.svg"
+  },
+  {
+    "root": "G",
+    "quality": "9",
+    "diagramFilename": "G9.svg"
+  },
+  {
+    "root": "G",
+    "quality": "add9",
+    "diagramFilename": "Gadd9.svg"
+  },
+  {
+    "root": "G",
+    "quality": "aug",
+    "diagramFilename": "Gaug.svg"
+  },
+  {
+    "root": "G",
+    "quality": "dim",
+    "diagramFilename": "Gdim.svg"
+  },
+  {
+    "root": "G",
+    "quality": "dim7",
+    "diagramFilename": "Gdim7.svg"
+  },
+  {
+    "root": "G",
+    "quality": "m",
+    "diagramFilename": "Gm.svg"
+  },
+  {
+    "root": "G",
+    "quality": "m6",
+    "diagramFilename": "Gm6.svg"
+  },
+  {
+    "root": "G",
+    "quality": "m7",
+    "diagramFilename": "Gm7.svg"
+  },
+  {
+    "root": "G",
+    "quality": "m7b5",
+    "diagramFilename": "Gm7b5.svg"
+  },
+  {
+    "root": "G",
+    "quality": "m9",
+    "diagramFilename": "Gm9.svg"
+  },
+  {
+    "root": "G",
+    "quality": "maj7",
+    "diagramFilename": "Gmaj7.svg"
+  },
+  {
+    "root": "G",
+    "quality": "maj9",
+    "diagramFilename": "Gmaj9.svg"
+  },
+  {
+    "root": "G",
+    "quality": "sus2",
+    "diagramFilename": "Gsus2.svg"
+  },
+  {
+    "root": "G",
+    "quality": "sus4",
+    "diagramFilename": "Gsus4.svg"
+  },
+  {
+    "root": "G#",
+    "quality": "",
+    "diagramFilename": "G#.svg"
+  },
+  {
+    "root": "G#",
+    "quality": "13",
+    "diagramFilename": "G#13.svg"
+  },
+  {
+    "root": "G#",
+    "quality": "6",
+    "diagramFilename": "G#6.svg"
+  },
+  {
+    "root": "G#",
+    "quality": "69",
+    "diagramFilename": "G#69.svg"
+  },
+  {
+    "root": "G#",
+    "quality": "7",
+    "diagramFilename": "G#7.svg"
+  },
+  {
+    "root": "G#",
+    "quality": "7#5",
+    "diagramFilename": "G#7#5.svg"
+  },
+  {
+    "root": "G#",
+    "quality": "7b5",
+    "diagramFilename": "G#7b5.svg"
+  },
+  {
+    "root": "G#",
+    "quality": "7b9",
+    "diagramFilename": "G#7b9.svg"
+  },
+  {
+    "root": "G#",
+    "quality": "9",
+    "diagramFilename": "G#9.svg"
+  },
+  {
+    "root": "G#",
+    "quality": "add9",
+    "diagramFilename": "G#add9.svg"
+  },
+  {
+    "root": "G#",
+    "quality": "aug",
+    "diagramFilename": "G#aug.svg"
+  },
+  {
+    "root": "G#",
+    "quality": "dim",
+    "diagramFilename": "G#dim.svg"
+  },
+  {
+    "root": "G#",
+    "quality": "dim7",
+    "diagramFilename": "G#dim7.svg"
+  },
+  {
+    "root": "G#",
+    "quality": "m",
+    "diagramFilename": "G#m.svg"
+  },
+  {
+    "root": "G#",
+    "quality": "m6",
+    "diagramFilename": "G#m6.svg"
+  },
+  {
+    "root": "G#",
+    "quality": "m7",
+    "diagramFilename": "G#m7.svg"
+  },
+  {
+    "root": "G#",
+    "quality": "m7b5",
+    "diagramFilename": "G#m7b5.svg"
+  },
+  {
+    "root": "G#",
+    "quality": "m9",
+    "diagramFilename": "G#m9.svg"
+  },
+  {
+    "root": "G#",
+    "quality": "maj7",
+    "diagramFilename": "G#maj7.svg"
+  },
+  {
+    "root": "G#",
+    "quality": "maj9",
+    "diagramFilename": "G#maj9.svg"
+  },
+  {
+    "root": "G#",
+    "quality": "sus2",
+    "diagramFilename": "G#sus2.svg"
+  },
+  {
+    "root": "G#",
+    "quality": "sus4",
+    "diagramFilename": "G#sus4.svg"
+  }
+]

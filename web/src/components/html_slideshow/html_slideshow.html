@@ -1,0 +1,15 @@
+<polymer-element name="html-slideshow">
+  <link rel="import" href="../html_display/html_display.html">
+
+  <style>
+    #display {
+      position: relative;
+    }
+  </style>
+
+  <template>
+    <div id="display" is="html-display" htmlContent="{{currentSlide}}"></div>
+  </template>
+
+  <script type="application/dart" src="html_slideshow.dart"></script>
+</polymer-element>

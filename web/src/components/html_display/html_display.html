@@ -1,0 +1,37 @@
+<!-- Polymer Dart element that allows HTML to be inserted into the DOM via data binding -->
+
+<polymer-element name="html-display" extends="div">
+  <script type="application/dart">
+    import 'dart:html';
+    import 'package:polymer/polymer.dart';
+
+    @CustomTag('html-display')
+    class HtmlDisplay extends DivElement with Polymer, Observable {
+      @published String htmlContent;
+
+      // we need this stuff because we're extending <div> instead of PolymerElement
+      factory HtmlDisplay() => new Element.tag('div', 'html-display');
+      HtmlDisplay.created() : super.created() {
+        polymerCreated();
+      }
+
+      void enteredView() {
+        super.enteredView();
+      }
+
+      // respond to any change in the "htmlContent" attribute
+      void htmlContentChanged(oldValue) {
+        if (htmlContent == null) {
+          htmlContent = "";
+        }
+
+        // creating a DocumentFragment allows for HTML parsing
+        this.nodes..clear()..add(new DocumentFragment.html("$htmlContent"));
+      }
+
+      // this lets the global CSS (such as Bootstrap, perhaps) bleed through into the Shadow DOM of this element
+      // take it out if this is not desireable
+      bool get applyAuthorStyles => true;
+    }
+  </script>
+</polymer-element>

@@ -1,0 +1,60 @@
+<svg xmlns='http://www.w3.org/2000/svg' version='1.1' width='80' height='85' >
+<!-- This file was auto-produced using Python SVG Chord generator V2.10 (C) 2012 joebrown.org.uk -->
+<!-- On UTC: 2012-07-04 09:29 -->
+<!-- All rights of the author are reserved -->
+
+<!-- genchord.py V1.00 (C) joebrown.org.uk. Tuning: Normal , derivation: CAGE[D] -->
+
+<!-- Chord name -->
+<text x='10' y='10' font-size='12' fill='red'>B13</text>
+
+<!-- fret start position (capo) - may be empty -->
+
+<!-- open/unplayed strings as follows (may be empty) : -->
+<text x='2.5' y='17' fill='black' font-size='12'>x</text>
+
+<!-- finger positions -->
+<circle cx='15' cy='54' r='2' stroke='black' stroke-width='1' fill='black'/>
+<circle cx='25' cy='74' r='2' stroke='black' stroke-width='1' fill='black'/>
+<circle cx='35' cy='54' r='2' stroke='black' stroke-width='1' fill='black'/>
+<circle cx='45' cy='74' r='2' stroke='black' stroke-width='1' fill='black'/>
+<circle cx='55' cy='74' r='2' stroke='black' stroke-width='1' fill='black'/>
+
+<!-- nut or capo position (slightly thicker line) -->
+<line x1='5' y1='19' x2='55' y2='19' style='stroke:rgb(0,0,0);stroke-width:nutlinewidth' />
+
+<!-- define cut -->
+<polyline points='5,29 15,24 25,29 35,24 45,29 55,24 ' style='fill:none; stroke:rgb(0,0,0);stroke-width:0.3' />
+<polyline points='5,34 15,29 25,34 35,29 45,34 55,29 ' style='fill:none; stroke:rgb(0,0,0);stroke-width:0.3' />
+
+
+<!-- fret position up cut neck -->
+<text x='56' y='41' fill='black' font-size='10' font-style='italic'>12fr</text>
+
+<!-- frets -->
+<line x1='5' y1='19' x2='55' y2='19' style='stroke:rgb(0,0,0);stroke-width:0.3' />
+<line x1='5' y1='39' x2='55' y2='39' style='stroke:rgb(0,0,0);stroke-width:0.3' />
+<line x1='5' y1='49' x2='55' y2='49' style='stroke:rgb(0,0,0);stroke-width:0.3' />
+<line x1='5' y1='59' x2='55' y2='59' style='stroke:rgb(0,0,0);stroke-width:0.3' />
+<line x1='5' y1='69' x2='55' y2='69' style='stroke:rgb(0,0,0);stroke-width:0.3' />
+<line x1='5' y1='79' x2='55' y2='79' style='stroke:rgb(0,0,0);stroke-width:0.3' />
+
+<!-- strings (to cut) --> 
+<line x1='5'  y1='19' x2='5'  y2='29' style='stroke:rgb(0,0,0);stroke-width:0.3' />
+<line x1='15'  y1='19' x2='15'  y2='24' style='stroke:rgb(0,0,0);stroke-width:0.3' />
+<line x1='25'  y1='19' x2='25'  y2='29' style='stroke:rgb(0,0,0);stroke-width:0.3' />
+<line x1='35'  y1='19' x2='35'  y2='24' style='stroke:rgb(0,0,0);stroke-width:0.3' />
+<line x1='45'  y1='19' x2='45'  y2='29' style='stroke:rgb(0,0,0);stroke-width:0.3' />
+<line x1='55'  y1='19' x2='55'  y2='24' style='stroke:rgb(0,0,0);stroke-width:0.3' />
+
+<!-- strings (from cut) --> 
+<line x1='5'  y1='34' x2='5'  y2='79' style='stroke:rgb(0,0,0);stroke-width:0.3' />
+<line x1='15'  y1='29' x2='15'  y2='79' style='stroke:rgb(0,0,0);stroke-width:0.3' />
+<line x1='25'  y1='34' x2='25'  y2='79' style='stroke:rgb(0,0,0);stroke-width:0.3' />
+<line x1='35'  y1='29' x2='35'  y2='79' style='stroke:rgb(0,0,0);stroke-width:0.3' />
+<line x1='45'  y1='34' x2='45'  y2='79' style='stroke:rgb(0,0,0);stroke-width:0.3' />
+<line x1='55'  y1='29' x2='55'  y2='79' style='stroke:rgb(0,0,0);stroke-width:0.3' />
+
+<!-- value of notes for each string (may be empty) --> 
+
+</svg>
