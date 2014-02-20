@@ -28,10 +28,6 @@
         // creating a DocumentFragment allows for HTML parsing
         this.nodes..clear()..add(new DocumentFragment.html("$htmlContent"));
       }
-
-      // this lets the global CSS (such as Bootstrap, perhaps) bleed through into the Shadow DOM of this element
-      // take it out if this is not desireable
-      bool get applyAuthorStyles => true;
     }
   </script>
 </polymer-element>

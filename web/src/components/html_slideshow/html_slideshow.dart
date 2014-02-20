@@ -101,8 +101,5 @@ class HTMLSlideshow extends PolymerElement {
       currentSlide = slideStr;
     }
   }
-
-  // this lets the global CSS bleed through into the Shadow DOM of this element
-  bool get applyAuthorStyles => true;
 }
 
