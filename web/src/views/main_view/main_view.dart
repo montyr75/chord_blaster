@@ -34,9 +34,8 @@ class MainView extends PolymerElement {
       .catchError((Error error) => print(error));
   }
 
-  // other initialization can be done here
-  @override void enteredView() {
-    super.enteredView();
+  @override void attached() {
+    super.attached();
     print("MainView::enteredView()");
 
     slideshow = $["slideshow"];
