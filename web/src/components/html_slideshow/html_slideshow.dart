@@ -18,8 +18,8 @@ class HTMLSlideshow extends PolymerElement {
 
   HTMLSlideshow.created() : super.created();
 
-  @override void enteredView() {
-    super.enteredView();
+  @override void attached() {
+    super.attached();
     print("HTMLSlideshow::enteredView()");
   }
 

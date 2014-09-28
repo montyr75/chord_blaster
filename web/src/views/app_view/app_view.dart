@@ -1,31 +1,24 @@
-library main_view;
+library app_view;
 
 import 'dart:html';
 import 'dart:convert';
 import 'package:polymer/polymer.dart';
-import 'package:polymer_expressions/filter.dart';
-import '../../components/html_slideshow/html_slideshow.dart';
-import '../../utils/filters.dart';
+import 'package:core_elements/core_pages.dart';
 import '../../model/chord.dart';
 
-@CustomTag('main-view')
-class MainView extends PolymerElement {
+@CustomTag('app-view')
+class AppView extends PolymerElement {
+
+  static const CLASS_NAME = "AppView";
 
   // constants
   static const String CHORD_LIST_PATH = "resources/data/chords.json";
 
-  // strings
-  static const String SAMPLE_STRING = "sample string";
-
   @observable List<Chord> chordList;
 
-  HTMLSlideshow slideshow;
+  CorePages slideshow;
 
-  // filters and transformers can be referenced as class fields
-  final Transformer asInteger = new StringToInt();
-
-  // non-visual initialization can be done here
-  MainView.created() : super.created() {
+  AppView.created() : super.created() {
     HttpRequest.getString(CHORD_LIST_PATH)
       .then((String fileContents) {
         List<Map> mapList = JSON.decode(fileContents);
@@ -36,36 +29,32 @@ class MainView extends PolymerElement {
 
   @override void attached() {
     super.attached();
-    print("MainView::enteredView()");
+    print("$CLASS_NAME::attached()");
 
     slideshow = $["slideshow"];
   }
 
-  // a sample event handler function
-  void eventHandler(Event event, var detail, Element target) {
-    print("MainView::eventHandler()");
-  }
-
   void startSlideshow(Event event, var detail, Element target) {
-    print("MainView::startSlideshow()");
+    print("$CLASS_NAME::startSlideshow()");
 
-    slideshow.start();
+//    slideshow.start();
+    slideshow.selected = 0;
   }
 
   void stopSlideshow(Event event, var detail, Element target) {
-    print("MainView::stopSlideshow()");
+    print("$CLASS_NAME::stopSlideshow()");
 
     slideshow.stop();
   }
 
   void pauseSlideshow(Event event, var detail, Element target) {
-    print("MainView::pauseSlideshow()");
+    print("$CLASS_NAME::pauseSlideshow()");
 
     slideshow.pause();
   }
 
   void nextSlide(Event event, var detail, Element target) {
-    print("MainView::nextSlide()");
+    print("$CLASS_NAME::nextSlide()");
 
     slideshow.nextSlide();
   }
