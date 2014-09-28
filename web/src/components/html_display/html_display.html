@@ -1,4 +1,5 @@
 <!-- Polymer Dart element that allows HTML to be inserted into the DOM via data binding -->
+<link rel="import" href="packages/polymer/polymer.html">
 
 <polymer-element name="html-display" extends="div">
   <script type="application/dart">
@@ -15,8 +16,8 @@
         polymerCreated();
       }
 
-      void enteredView() {
-        super.enteredView();
+      @override void attached() {
+        super.attached();
       }
 
       // respond to any change in the "htmlContent" attribute
