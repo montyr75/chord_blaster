@@ -3,7 +3,7 @@ library app_view;
 import 'dart:html';
 import 'dart:convert';
 import 'package:polymer/polymer.dart';
-import 'package:core_elements/core_pages.dart';
+import 'package:core_elements/core_animated_pages.dart';
 import '../../model/chord.dart';
 
 @CustomTag('app-view')
@@ -16,7 +16,7 @@ class AppView extends PolymerElement {
 
   @observable List<Chord> chordList;
 
-  CorePages slideshow;
+  CoreAnimatedPages slideshow;
 
   AppView.created() : super.created() {
     HttpRequest.getString(CHORD_LIST_PATH)
@@ -44,19 +44,19 @@ class AppView extends PolymerElement {
   void stopSlideshow(Event event, var detail, Element target) {
     print("$CLASS_NAME::stopSlideshow()");
 
-    slideshow.stop();
+//    slideshow.stop();
   }
 
   void pauseSlideshow(Event event, var detail, Element target) {
     print("$CLASS_NAME::pauseSlideshow()");
 
-    slideshow.pause();
+//    slideshow.pause();
   }
 
   void nextSlide(Event event, var detail, Element target) {
     print("$CLASS_NAME::nextSlide()");
 
-    slideshow.nextSlide();
+    slideshow.selected += 1;
   }
 
   // prevent app reload on <form> submission

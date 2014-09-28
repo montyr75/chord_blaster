@@ -1,7 +1,8 @@
 <link rel="import" href="packages/polymer/polymer.html">
 <link rel="import" href="packages/core_elements/core_header_panel.html">
 <link rel="import" href="packages/core_elements/core_toolbar.html">
-<link rel="import" href="packages/core_elements/core_pages.html">
+<link rel="import" href="packages/core_elements/core_animated_pages.html">
+<link rel="import" href="packages/core_elements/src/core-animated-pages/transitions/slide-from-right.html">
 <link rel="import" href="packages/core_elements/av_icons.html">
 <link rel="import" href="packages/paper_elements/paper_button.html">
 <link rel="import" href="../../components/html_display/html_display.html">
@@ -32,7 +33,13 @@
       }
 
       .chord-symbol {
-        font-size: 50px;
+        font-size: 75px;
+      }
+
+      #slideshow {
+        width: 100%;
+        height: 90px;
+        margin: 10px;
       }
     </style>
 
@@ -42,12 +49,13 @@
       </core-toolbar>
 
       <div id="wrapper" layout vertical center class="user-select-none">
-        <core-pages id="slideshow" selected="0">
+        <core-animated-pages id="slideshow" transitions="slide-from-right" selected="0" layout vertical>
           <template repeat="{{chord in chordList}}">
-            <!--<div class="chord-symbol">{{chord.toString()}}</div>-->
-            <div class="chord-symbol" is="html-display" htmlContent="{{chord.toString()}}"></div>
+            <section flex layout vertical center>
+              <div class="chord-symbol" is="html-display" htmlContent="{{chord.toString()}}"></div>
+            </section>
           </template>
-        </core-pages>
+        </core-animated-pages>
 
         <!--<ul>-->
           <!--<template repeat="{{chord in chordList}}">-->
