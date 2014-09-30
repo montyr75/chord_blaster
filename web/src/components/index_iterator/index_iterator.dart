@@ -30,7 +30,7 @@ class IndexIterator extends PolymerElement {
     super.attached();
     print("$CLASS_NAME::attached() -- $endIndex");
 
-    if (autoStart) {
+    if (autoStart && endIndex != null) {
       start();
     }
   }
@@ -38,6 +38,21 @@ class IndexIterator extends PolymerElement {
   void _setupDuration() {
     // setup the Duration object
     _duration = new Duration(seconds: interval);
+  }
+
+  void _stopTimer() {
+    if (_timer != null) {
+      _timer.cancel();
+    }
+  }
+
+  // this is the only required attribute
+  void endIndexChanged([oldValue]) {
+    print("$CLASS_NAME::endIndexChanged(): $endIndex");
+
+    if (autoStart && endIndex != null) {
+      start();
+    }
   }
 
   // respond to any change in the "interval" attribute
@@ -53,7 +68,8 @@ class IndexIterator extends PolymerElement {
 
     // if we're already playing, restart the timer with the new interval
     if (_state == PLAYING) {
-      start();
+      _stopTimer();
+      _timer = new Timer.periodic(_duration, next);
     }
   }
 
@@ -68,32 +84,28 @@ class IndexIterator extends PolymerElement {
     }
 
     // kill any existing timer
-    pause();
+    _stopTimer();
 
     if (_duration == null) {
       _setupDuration();
     }
 
-    if (_state == STOPPED) {
-      reset();
-    }
-
     // start the timer
     _timer = new Timer.periodic(_duration, next);
+
+    _state = PLAYING;
   }
 
   void pause() {
-    // stop the timer
-    if (_timer != null) {
-      _timer.cancel();
-      _state = PAUSED;
-    }
+    // kill the timer and record that we're paused
+    _stopTimer();
+    _state = PAUSED;
   }
 
   void stop() {
-    // stop the timer and record that we're stopped
-    pause();
-
+    // kill the timer, reset the index, and record that we're stopped
+    _stopTimer();
+    reset();
     _state = STOPPED;
   }
 
@@ -120,17 +132,16 @@ class IndexIterator extends PolymerElement {
 
     if (nextAvailable) {
       index += step;
+      print("$CLASS_NAME::next() -- $index");
     }
     else {
       if (loop) {
         reset();
       }
-      else {
+      else if (_state == PLAYING) {
         stop();
       }
     }
-
-    print("$CLASS_NAME::next() -- $index");
   }
 
   void prev([Timer timer = null]) {
@@ -152,17 +163,15 @@ class IndexIterator extends PolymerElement {
 
     if (prevAvailable) {
       index -= step;
+      print("$CLASS_NAME::prev() -- $index");
     }
     else {
       if (loop) {
         index = endIndex;
       }
-      else {
+      else if (_state == PLAYING) {
         stop();
       }
     }
-
-    print("$CLASS_NAME::prev() -- $index");
   }
 }
-

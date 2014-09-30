@@ -5,6 +5,7 @@ import 'dart:convert';
 import 'package:polymer/polymer.dart';
 import '../../components/index_iterator/index_iterator.dart';
 import '../../model/chord.dart';
+import 'dart:js';
 
 @CustomTag('app-view')
 class AppView extends PolymerElement {
@@ -25,6 +26,9 @@ class AppView extends PolymerElement {
         chordList = mapList.map((Map chordMap) => new Chord.fromMap(chordMap)).toList(growable: false);
       })
       .catchError((Error error) => print(error));
+
+    // changing this JS value will alter the duration of slide transitions in <core-animated-pages>
+    context['CoreStyle']['g']['transitions']['slideDuration'] = "250ms";
   }
 
   @override void attached() {
@@ -56,6 +60,12 @@ class AppView extends PolymerElement {
     print("$CLASS_NAME::nextSlide()");
 
     chordDisplayIterator.next();
+  }
+
+  void prevSlide(Event event, var detail, Element target) {
+    print("$CLASS_NAME::prevSlide()");
+
+    chordDisplayIterator.prev();
   }
 
   // prevent app reload on <form> submission
