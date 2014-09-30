@@ -3,7 +3,7 @@ library app_view;
 import 'dart:html';
 import 'dart:convert';
 import 'package:polymer/polymer.dart';
-import 'package:core_elements/core_animated_pages.dart';
+import '../../components/index_iterator/index_iterator.dart';
 import '../../model/chord.dart';
 
 @CustomTag('app-view')
@@ -16,7 +16,7 @@ class AppView extends PolymerElement {
 
   @observable List<Chord> chordList;
 
-  CoreAnimatedPages slideshow;
+  IndexIterator chordDisplayIterator;
 
   AppView.created() : super.created() {
     HttpRequest.getString(CHORD_LIST_PATH)
@@ -31,32 +31,31 @@ class AppView extends PolymerElement {
     super.attached();
     print("$CLASS_NAME::attached()");
 
-    slideshow = $["slideshow"];
+    chordDisplayIterator = $["chord-iterator"];
   }
 
   void startSlideshow(Event event, var detail, Element target) {
     print("$CLASS_NAME::startSlideshow()");
 
-//    slideshow.start();
-    slideshow.selected = 0;
+    chordDisplayIterator.start();
   }
 
   void stopSlideshow(Event event, var detail, Element target) {
     print("$CLASS_NAME::stopSlideshow()");
 
-//    slideshow.stop();
+    chordDisplayIterator.stop();
   }
 
   void pauseSlideshow(Event event, var detail, Element target) {
     print("$CLASS_NAME::pauseSlideshow()");
 
-//    slideshow.pause();
+    chordDisplayIterator.pause();
   }
 
   void nextSlide(Event event, var detail, Element target) {
     print("$CLASS_NAME::nextSlide()");
 
-    slideshow.selected += 1;
+    chordDisplayIterator.next();
   }
 
   // prevent app reload on <form> submission
