@@ -2,7 +2,7 @@
 <link rel="import" href="packages/core_elements/core_header_panel.html">
 <link rel="import" href="packages/core_elements/core_toolbar.html">
 <link rel="import" href="packages/core_elements/core_animated_pages.html">
-<link rel="import" href="packages/core_elements/src/core-animated-pages/transitions/slide-from-right.html">
+<!--<link rel="import" href="packages/core_elements/src/core-animated-pages/transitions/cross-fade.html">-->
 <link rel="import" href="packages/core_elements/av_icons.html">
 <link rel="import" href="packages/paper_elements/paper_button.html">
 <link rel="import" href="../../components/html_display/html_display.html">
@@ -50,8 +50,8 @@
       </core-toolbar>
 
       <div id="wrapper" layout vertical center class="user-select-none">
-        <index-iterator id="chord-iterator" endIndex="{{chordList.length}}" autoStart></index-iterator>
-        <core-animated-pages id="slideshow" transitions="slide-from-right" selected="{{chordDisplayIterator.index}}" layout vertical>
+        <index-iterator id="chord-iterator" endIndex="{{chordList.length - 1}}" interval="3" autoStart loop></index-iterator>
+        <core-animated-pages id="slideshow" selected="{{chordDisplayIterator.index}}" layout vertical>
           <template repeat="{{chord in chordList}}">
             <section flex layout vertical center>
               <div class="chord-symbol" is="html-display" htmlContent="{{chord.toString()}}"></div>
