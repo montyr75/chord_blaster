@@ -20,7 +20,8 @@ class IndexIterator extends PolymerElement {
   @published bool loop = false;       // should the index loop back to the beginning?
   @published bool autoStart = false;  // should the timer start automatically?
 
-  String _state = STOPPED;
+  @observable String state = STOPPED;
+
   Timer _timer;
   Duration _duration;
 
@@ -67,7 +68,7 @@ class IndexIterator extends PolymerElement {
     _setupDuration();
 
     // if we're already playing, restart the timer with the new interval
-    if (_state == PLAYING) {
+    if (state == PLAYING) {
       _stopTimer();
       _timer = new Timer.periodic(_duration, next);
     }
@@ -79,7 +80,7 @@ class IndexIterator extends PolymerElement {
       return;
     }
 
-    if (_state == PLAYING) {
+    if (state == PLAYING) {
       return;
     }
 
@@ -93,20 +94,20 @@ class IndexIterator extends PolymerElement {
     // start the timer
     _timer = new Timer.periodic(_duration, next);
 
-    _state = PLAYING;
+    state = PLAYING;
   }
 
   void pause() {
     // kill the timer and record that we're paused
     _stopTimer();
-    _state = PAUSED;
+    state = PAUSED;
   }
 
   void stop() {
     // kill the timer, reset the index, and record that we're stopped
     _stopTimer();
     reset();
-    _state = STOPPED;
+    state = STOPPED;
   }
 
   void reset() {
@@ -138,7 +139,7 @@ class IndexIterator extends PolymerElement {
       if (loop) {
         reset();
       }
-      else if (_state == PLAYING) {
+      else if (state == PLAYING) {
         stop();
       }
     }
@@ -169,7 +170,7 @@ class IndexIterator extends PolymerElement {
       if (loop) {
         index = endIndex;
       }
-      else if (_state == PLAYING) {
+      else if (state == PLAYING) {
         stop();
       }
     }

@@ -17,7 +17,7 @@ class AppView extends PolymerElement {
 
   @observable List<Chord> chordList;
 
-  IndexIterator chordDisplayIterator;
+  @observable IndexIterator chordDisplayIterator;
 
   AppView.created() : super.created() {
     HttpRequest.getString(CHORD_LIST_PATH)
