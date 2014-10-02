@@ -65,7 +65,7 @@
           <!--</template>-->
         <!--</ul>-->
 
-        <div layout horizontal center-justified class="box-container control-panel">
+        <div layout horizontal center-justified class="box-container">
           <template if="{{chordDisplayIterator.state != 'PLAYING'}}"><paper-button icon="av:play-arrow" on-tap="{{startSlideshow}}"></paper-button></template>
           <template if="{{chordDisplayIterator.state == 'PLAYING'}}"><paper-button icon="av:pause" on-tap="{{pauseSlideshow}}"></paper-button></template>
           <paper-button icon="av:stop" on-tap="{{stopSlideshow}}"></paper-button>
