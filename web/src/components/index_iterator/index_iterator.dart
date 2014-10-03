@@ -74,6 +74,10 @@ class IndexIterator extends PolymerElement {
     }
   }
 
+  void startIndexChanged(oldvalue) {
+    reset();
+  }
+
   void start() {
     if (endIndex == null) {
       print("$CLASS_NAME::start() -- ERROR: Iterator invalid.");

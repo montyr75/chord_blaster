@@ -4,7 +4,7 @@
 <link rel="import" href="packages/core_elements/core_animated_pages.html">
 <!--<link rel="import" href="packages/core_elements/src/core-animated-pages/transitions/cross-fade.html">-->
 <link rel="import" href="packages/core_elements/av_icons.html">
-<link rel="import" href="packages/paper_elements/paper_button.html">
+<link rel="import" href="packages/paper_elements/paper_icon_button.html">
 <link rel="import" href="../../components/html_display/html_display.html">
 <link rel="import" href="../../components/index_iterator/index_iterator.html">
 
@@ -66,11 +66,11 @@
         <!--</ul>-->
 
         <div layout horizontal center-justified class="box-container">
-          <template if="{{chordDisplayIterator.state != 'PLAYING'}}"><paper-button icon="av:play-arrow" on-tap="{{startSlideshow}}"></paper-button></template>
-          <template if="{{chordDisplayIterator.state == 'PLAYING'}}"><paper-button icon="av:pause" on-tap="{{pauseSlideshow}}"></paper-button></template>
-          <paper-button icon="av:stop" on-tap="{{stopSlideshow}}"></paper-button>
-          <paper-button icon="av:skip-previous" on-tap="{{prevSlide}}"></paper-button>
-          <paper-button icon="av:skip-next" on-tap="{{nextSlide}}"></paper-button>
+          <template if="{{chordDisplayIterator.state != 'PLAYING'}}"><paper-icon-button icon="av:play-arrow" on-tap="{{startSlideshow}}"></paper-icon-button></template>
+          <template if="{{chordDisplayIterator.state == 'PLAYING'}}"><paper-icon-button icon="av:pause" on-tap="{{pauseSlideshow}}"></paper-icon-button></template>
+          <paper-icon-button icon="av:stop" on-tap="{{stopSlideshow}}"></paper-icon-button>
+          <paper-icon-button icon="av:skip-previous" on-tap="{{prevSlide}}"></paper-icon-button>
+          <paper-icon-button icon="av:skip-next" on-tap="{{nextSlide}}"></paper-icon-button>
         </div>
       </div>
     </core-header-panel>
