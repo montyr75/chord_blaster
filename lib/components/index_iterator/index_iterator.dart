@@ -2,11 +2,10 @@ library index_iterator;
 
 import 'dart:async';
 import 'package:polymer/polymer.dart';
+import '../../model/global.dart';
 
 @CustomTag('index-iterator')
 class IndexIterator extends PolymerElement {
-
-  static const String CLASS_NAME = "IndexIterator";
 
   static const String STOPPED = "STOPPED";
   static const String PLAYING = "PLAYING";
@@ -29,7 +28,7 @@ class IndexIterator extends PolymerElement {
 
   @override void attached() {
     super.attached();
-    print("$CLASS_NAME::attached() -- $endIndex");
+    log.info("$runtimeType::attached() -- $endIndex");
 
     if (autoStart && endIndex != null) {
       start();
@@ -49,7 +48,7 @@ class IndexIterator extends PolymerElement {
 
   // this is the only required attribute
   void endIndexChanged([oldValue]) {
-    print("$CLASS_NAME::endIndexChanged(): $endIndex");
+    log.info("$runtimeType::endIndexChanged(): $endIndex");
 
     if (autoStart && endIndex != null) {
       start();
@@ -58,10 +57,10 @@ class IndexIterator extends PolymerElement {
 
   // respond to any change in the "interval" attribute
   void intervalChanged([oldValue]) {
-    print("$CLASS_NAME::intervalChanged(): $interval");
+    log.info("$runtimeType::intervalChanged(): $interval");
 
     if (interval == null || interval <= 0) {
-      print("$CLASS_NAME::intervalChanged(): ERROR: interval -- $interval");
+      log.info("$runtimeType::intervalChanged(): ERROR: interval -- $interval");
       return;
     }
 
@@ -84,7 +83,7 @@ class IndexIterator extends PolymerElement {
 
   void start() {
     if (endIndex == null) {
-      print("$CLASS_NAME::start() -- ERROR: Iterator invalid.");
+      log.severe("$runtimeType::start() -- ERROR: Iterator invalid.");
       return;
     }
 
@@ -124,7 +123,7 @@ class IndexIterator extends PolymerElement {
 
   void next([Timer timer = null]) {
     if (endIndex == null) {
-      print("$CLASS_NAME::next() -- ERROR: Iterator invalid.");
+      log.severe("$runtimeType::next() -- ERROR: Iterator invalid.");
       return;
     }
 
@@ -141,7 +140,7 @@ class IndexIterator extends PolymerElement {
 
     if (nextAvailable) {
       index += step;
-      print("$CLASS_NAME::next() -- $index");
+      log.info("$runtimeType::next() -- $index");
     }
     else {
       if (loop) {
@@ -155,7 +154,7 @@ class IndexIterator extends PolymerElement {
 
   void prev([Timer timer = null]) {
     if (endIndex == null) {
-      print("$CLASS_NAME::prev() -- ERROR: Iterator invalid.");
+      log.severe("$runtimeType::prev() -- ERROR: Iterator invalid.");
       return;
     }
 
@@ -172,7 +171,7 @@ class IndexIterator extends PolymerElement {
 
     if (prevAvailable) {
       index -= step;
-      print("$CLASS_NAME::prev() -- $index");
+      log.info("$runtimeType::prev() -- $index");
     }
     else {
       if (loop) {

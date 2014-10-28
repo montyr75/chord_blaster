@@ -2,6 +2,7 @@ name: chord_blaster
 description: A Polymer Dart application.
 dependencies:
   core_elements: any
+  intl: any
   paper_elements: any
   polymer: any
 transformers:
